@@ -1,0 +1,32 @@
+{
+  "name": "errfmt",
+  "version": "1.0.0",
+  "description": "make errors pretty and readable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "keywords": [
+    "error",
+    "format",
+    "formatter",
+    "pretty",
+    "prettier",
+    "log"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "execa": "^5.0.0",
+    "pad-even": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarthCucumber/errfmt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DarthCucumber/errfmt/issues"
+  },
+  "homepage": "https://github.com/DarthCucumber/errfmt#readme"
+}
