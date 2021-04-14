@@ -22,8 +22,7 @@ function Errfmt(options = metadata) {
  * @param  {...string} prop
  */
 function include(...prop) {
-    let inc = this.metadata.include.concat(prop);
-    this.metadata.include = [...new Set(inc)];
+    this.metadata.include = [...new Set(prop)];
     return this;
 }
 
@@ -31,8 +30,7 @@ function include(...prop) {
  * @param  {...string} prop 
  */
 function exclude(...prop) {
-    let exc = this.metadata.exclude.concat(prop);
-    this.metadata.exclude = [...new Set(exc)];
+    this.metadata.exclude = [...new Set(prop)];
     return this;
 }
 

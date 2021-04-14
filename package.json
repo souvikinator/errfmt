@@ -1,6 +1,6 @@
 {
   "name": "errfmt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "make errors pretty and readable",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,6 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.0",
-    "execa": "^5.0.0",
     "pad-even": "^1.0.1"
   },
   "repository": {
