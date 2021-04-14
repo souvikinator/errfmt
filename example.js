@@ -5,6 +5,5 @@ const errfmt = new Errfmt();
     await execa('unknown', ['cmd'])
         .catch(err => {
             errfmt.withColor().print(err);
-            console.log(err);
         });
 })();
